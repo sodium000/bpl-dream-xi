@@ -5,7 +5,7 @@ import '../css/navbar.css'
 
 export default function navbar() {
 return (
-    <div className='container mx-auto border h-[72px] mt-5 flex justify-between items-center px-3 '>
+    <div className='container mx-auto  h-[72px] mt-5 flex justify-between items-center px-3 '>
         <div>
             <img src={img} alt="" />
         </div>
