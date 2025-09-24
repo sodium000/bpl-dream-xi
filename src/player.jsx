@@ -37,9 +37,9 @@ const player = ({Player}) => {
           <h1 className="playerCatagory">{player.type}</h1>
         </div>
         <div className="mt-6 playerRating">Rating: {player.rating}</div>
-        <div className="flex justify-between items-center mt-2">
-          <div className="playerBat">{player.battingStyle}</div>
-          <div className="playerBlow">{player.bowlingStyle}</div>
+        <div className="flex justify-between items-center mt-2 gap-2">
+          <div className="playerBat">Batting:&nbsp;{player.battingStyle}</div>
+          <div className="playerBat">Blowing:&nbsp;{player.bowlingStyle}</div>
         </div>
         <div className="flex justify-between items-center mt-3">
           <div className="playerPrice">Price: {player.price}cr</div>
