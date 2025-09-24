@@ -1,0 +1,104 @@
+
+
+.plyerImage{
+    /* Rectangle 2 */
+min-width: 376px;
+border-radius: 16px;
+}
+
+.playerName{
+    color: rgba(19, 19, 19, 1);
+
+font-family: Sora;
+font-size: 20px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.plyerFlag{
+    opacity: 0.5;
+}
+
+.playerCountry{
+color: rgba(19, 19, 19, 1);
+font-family: Sora;
+font-size: 16px;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.5;
+
+}
+
+.playerCatagory{
+    color: rgba(19, 19, 19, 1);
+font-family: Sora;
+font-size: 14px;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.playerRating{
+    color: rgba(19, 19, 19, 1);
+
+font-family: Sora;
+font-size: 16px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.playerBat{
+    color: rgba(19, 19, 19, 1);
+
+font-family: Sora;
+font-size: 16px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.playerBlow{
+    color: rgba(19, 19, 19, 0.7);
+
+font-family: Sora;
+font-size: 16px;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.playerPrice{
+    color: rgba(19, 19, 19, 1);
+
+font-family: Sora;
+font-size: 16px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.playerButton{
+    /* Frame 17 */
+width: 134px;
+height: 36px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 9px 16px 9px 16px;
+box-sizing: border-box;
+border: 1px solid rgba(19, 19, 19, 0.1);
+border-radius: 8px;
+}

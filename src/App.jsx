@@ -1,6 +1,7 @@
 import Navbar from './navbar'
 import './App.css'
 import Banner from './banner'
+import Player from './player'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         </div>
       </div>
     </div>
+    <Player></Player>
     </>
   )
 }
