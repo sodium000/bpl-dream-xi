@@ -2,7 +2,7 @@
 
 .plyerImage{
     /* Rectangle 2 */
-min-width: 376px;
+
 border-radius: 16px;
 }
 
@@ -19,6 +19,8 @@ text-align: left;
 
 .plyerFlag{
     opacity: 0.5;
+    max-width: 25px;
+    max-height: 25px;
 }
 
 .playerCountry{
@@ -29,7 +31,7 @@ font-weight: 400;
 line-height: 100%;
 letter-spacing: 0%;
 text-align: left;
-opacity: 0.5;
+
 
 }
 
@@ -89,7 +91,7 @@ text-align: left;
 
 .playerButton{
     /* Frame 17 */
-width: 134px;
+
 height: 36px;
 /* Auto layout */
 display: flex;

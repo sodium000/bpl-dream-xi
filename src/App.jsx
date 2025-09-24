@@ -1,16 +1,20 @@
 import Navbar from './navbar'
 import './App.css'
 import Banner from './banner'
-import Player from './player'
+import Players from './player'
+import { Suspense } from 'react';
 
 function App() {
+
+
+    const Player = fetch('../public/player.json').then(res=>res.json());
 
   return (
     <>
     <Navbar></Navbar>
     <Banner></Banner>
-     <div className='flex justify-between items-center container mx-auto mt-15'>
-      <div className='playerH1'>Available Players</div>
+    <div className='flex justify-between items-center container mx-auto mt-15'>
+      <div className='playerH1' >Available Players</div>
       <div className='flex items-center'>
         <div className='playerButton1'>
             Available
@@ -20,7 +24,13 @@ function App() {
         </div>
       </div>
     </div>
-    <Player></Player>
+
+      <Suspense fallback={<p>waiting for message...</p>}>
+       <Players Player={Player}></Players>
+    </Suspense>
+
+   
+    
     </>
   )
 }
