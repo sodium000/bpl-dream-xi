@@ -4,6 +4,7 @@ import Banner from './banner'
 import Players from './player'
 import { Suspense, useState } from 'react';
 import Select from "./select"
+import SubmitEmail from './submitEmail'
 
 
 function App() {
@@ -30,17 +31,11 @@ function App() {
     </div>
 
     {
-      toggle === true ?  <Suspense fallback={<p>waiting for message...</p>}>
-       <Players Player={Player}></Players>
+      toggle === true ?  <Suspense fallback={<p className='flex items-center justify-center'><span className="loading loading-infinity loading-xl "></span></p>}>
+      <Players Player={Player}></Players>
     </Suspense>:<Select></Select>
     }
-
-     
-
-    
-
-   
-    
+    <SubmitEmail></SubmitEmail>
     </>
   )
 }

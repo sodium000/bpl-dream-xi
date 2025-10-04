@@ -17,7 +17,7 @@ const player = ({Player}) => {
   const Playerlist = use(Player);
   return (
     <>
-      <div className="container mx-auto mt-15 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 mb-10">
+      <div className="container mx-auto mt-15 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 mb-[300px]">
         {
           Playerlist.map( (player) => <div className="p-4 border flex flex-col border-gray-300 rounded-2xl">
         <img
@@ -47,7 +47,7 @@ const player = ({Player}) => {
         </div>
       </div>)
         }
-  
+        
     </div>
     </>
   );

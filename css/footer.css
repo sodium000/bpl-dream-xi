@@ -1,0 +1,125 @@
+
+
+.mainBg{
+    background: #33301f;
+    background: linear-gradient(113deg,rgba(51, 48, 31, 1) 0%, rgba(88, 209, 169, 1) 87%);
+}
+
+.footer{
+    color: rgba(19, 19, 19, 1);
+font-family: Sora;
+font-size: 32px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.footerT{
+    color: rgba(19, 19, 19, 0.7);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.footerI{
+    /* Frame 2 */
+width: 400px;
+height: 56px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 10PX;
+padding: 18px 30px 18px 30px;
+box-sizing: border-box;
+border: 1px solid rgba(19, 19, 19, 0.15);
+border-radius: 12px;
+background: rgba(255, 255, 255, 1);
+}
+
+.footerB{
+    /* Frame 11 */
+width: 145px;
+height: 56px;
+/* Auto layout */
+font-size: 18px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10PX;
+padding: 18px 30px 18px 30px;
+border-radius: 12px;
+box-shadow: inset 4px 4px 20px 0px rgba(19, 19, 19, 0.3);
+background: #22C1C3;
+background: linear-gradient(113deg, rgba(34, 193, 195, 1) 0%, rgba(129, 139, 181, 1) 82%);
+}
+
+.footerHead{
+    color: rgba(255, 255, 255, 1);
+font-family: Sora;
+font-size: 18px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.footerText{
+    color: rgba(255, 255, 255, 0.6);
+font-family: Sora;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.Text{
+    color: rgba(255, 255, 255, 0.6);
+font-family: Sora;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+}
+
+
+.footerInput{
+    /* Frame 2 */
+width: 240px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 10;
+padding: 14px 30px 14px 30px;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.15);
+border-radius: 12px 0px 0px 12px;
+background: rgba(255, 255, 255, 1);
+}
+
+
+.footerButton{
+/* Frame 11 */
+width: 145px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 14px 30px 14px 30px;
+border-radius: 0px 12px 12px 0px;
+box-shadow: inset 4px 4px 20px 0px rgba(19, 19, 19, 0.3);
+background: #22C1C3;
+background: linear-gradient(113deg, rgba(34, 193, 195, 1) 0%, rgba(129, 139, 181, 1) 82%);
+}
